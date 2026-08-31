@@ -32,9 +32,8 @@ const KEYWORD_MAP = {
 
 /**
  * riceve il prompt dell'utente e restituisce una stringa per la ricerca su YouTube
- * @param {string} promptText - testo inserito dall'utente 
- * @returns {string} - query di ricerca pronta per YouTube
  */
+
  export function parsePrompt(promptText) {
     if (!promptText || typeof promptText !== 'string') {
         return 'relaxing background music'
